@@ -7,16 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA5CE4CB23F4C24F00F3F842 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5CE4CA23F4C24F00F3F842 /* Menu.swift */; };
+		BA5CE4CF23F4C7CE00F3F842 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5CE4CE23F4C7CE00F3F842 /* Default-568h@2x.png */; };
+		BA85F9AD23ECC66600A7EA16 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA85F9AC23ECC66600A7EA16 /* Helper.swift */; };
+		BA85F9AF23ECC69D00A7EA16 /* breakfastMenu.json in Resources */ = {isa = PBXBuildFile; fileRef = BA85F9AE23ECC69D00A7EA16 /* breakfastMenu.json */; };
+		BA85FA1323EDBE1B00A7EA16 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA85FA1223EDBE1B00A7EA16 /* ItemRow.swift */; };
+		BA85FA1923EE15B300A7EA16 /* lunchMenu.json in Resources */ = {isa = PBXBuildFile; fileRef = BA85FA1823EE15B200A7EA16 /* lunchMenu.json */; };
 		BA92D01323EB869400436944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92D01223EB869400436944 /* AppDelegate.swift */; };
 		BA92D01523EB869400436944 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92D01423EB869400436944 /* SceneDelegate.swift */; };
 		BA92D01723EB869400436944 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92D01623EB869400436944 /* ContentView.swift */; };
 		BA92D01923EB869C00436944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA92D01823EB869C00436944 /* Assets.xcassets */; };
 		BA92D01C23EB869C00436944 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA92D01B23EB869C00436944 /* Preview Assets.xcassets */; };
 		BA92D01F23EB869C00436944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA92D01D23EB869C00436944 /* LaunchScreen.storyboard */; };
+		BA92D02723EB86C900436944 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92D02623EB86C900436944 /* CircleImage.swift */; };
+		BA92D02923EB86D100436944 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92D02823EB86D100436944 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA92D00F23EB869400436944 /* newChevs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newChevs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5CE4CA23F4C24F00F3F842 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = menus/Menu.swift; sourceTree = "<group>"; };
+		BA5CE4CE23F4C7CE00F3F842 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BA85F9AC23ECC66600A7EA16 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		BA85F9AE23ECC69D00A7EA16 /* breakfastMenu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breakfastMenu.json; sourceTree = "<group>"; };
+		BA85FA1223EDBE1B00A7EA16 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		BA85FA1823EE15B200A7EA16 /* lunchMenu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lunchMenu.json; sourceTree = "<group>"; };
+		BA92D00F23EB869400436944 /* Chev and Rachel's Family Diner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chev and Rachel's Family Diner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA92D01223EB869400436944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA92D01423EB869400436944 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BA92D01623EB869400436944 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +38,8 @@
 		BA92D01B23EB869C00436944 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA92D01E23EB869C00436944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA92D02023EB869C00436944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA92D02623EB86C900436944 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		BA92D02823EB86D100436944 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +53,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA85FA1A23EE15BF00A7EA16 /* menus */ = {
+			isa = PBXGroup;
+			children = (
+				BA85FA1823EE15B200A7EA16 /* lunchMenu.json */,
+				BA85F9AE23ECC69D00A7EA16 /* breakfastMenu.json */,
+			);
+			path = menus;
+			sourceTree = "<group>";
+		};
 		BA92D00623EB869400436944 = {
 			isa = PBXGroup;
 			children = (
+				BA5CE4CE23F4C7CE00F3F842 /* Default-568h@2x.png */,
 				BA92D01123EB869400436944 /* newChevs */,
 				BA92D01023EB869400436944 /* Products */,
 			);
@@ -48,7 +74,7 @@
 		BA92D01023EB869400436944 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA92D00F23EB869400436944 /* newChevs.app */,
+				BA92D00F23EB869400436944 /* Chev and Rachel's Family Diner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,10 +84,16 @@
 			children = (
 				BA92D01223EB869400436944 /* AppDelegate.swift */,
 				BA92D01423EB869400436944 /* SceneDelegate.swift */,
+				BA85F9AC23ECC66600A7EA16 /* Helper.swift */,
+				BA5CE4CA23F4C24F00F3F842 /* Menu.swift */,
+				BA85FA1A23EE15BF00A7EA16 /* menus */,
 				BA92D01623EB869400436944 /* ContentView.swift */,
+				BA85FA1223EDBE1B00A7EA16 /* ItemRow.swift */,
 				BA92D01823EB869C00436944 /* Assets.xcassets */,
 				BA92D01D23EB869C00436944 /* LaunchScreen.storyboard */,
 				BA92D02023EB869C00436944 /* Info.plist */,
+				BA92D02623EB86C900436944 /* CircleImage.swift */,
+				BA92D02823EB86D100436944 /* MapView.swift */,
 				BA92D01A23EB869C00436944 /* Preview Content */,
 			);
 			path = newChevs;
@@ -78,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BA92D00E23EB869400436944 /* newChevs */ = {
+		BA92D00E23EB869400436944 /* Chev and Rachel's Family Diner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA92D02323EB869C00436944 /* Build configuration list for PBXNativeTarget "newChevs" */;
+			buildConfigurationList = BA92D02323EB869C00436944 /* Build configuration list for PBXNativeTarget "Chev and Rachel's Family Diner" */;
 			buildPhases = (
 				BA92D00B23EB869400436944 /* Sources */,
 				BA92D00C23EB869400436944 /* Frameworks */,
@@ -90,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = newChevs;
+			name = "Chev and Rachel's Family Diner";
 			productName = newChevs;
-			productReference = BA92D00F23EB869400436944 /* newChevs.app */;
+			productReference = BA92D00F23EB869400436944 /* Chev and Rachel's Family Diner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BA92D00A23EB869400436944 /* Build configuration list for PBXProject "newChevs" */;
+			buildConfigurationList = BA92D00A23EB869400436944 /* Build configuration list for PBXProject "Chev and Rachel's Family Diner" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA92D00E23EB869400436944 /* newChevs */,
+				BA92D00E23EB869400436944 /* Chev and Rachel's Family Diner */,
 			);
 		};
 /* End PBXProject section */
@@ -133,9 +165,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA85FA1923EE15B300A7EA16 /* lunchMenu.json in Resources */,
 				BA92D01F23EB869C00436944 /* LaunchScreen.storyboard in Resources */,
 				BA92D01C23EB869C00436944 /* Preview Assets.xcassets in Resources */,
+				BA85F9AF23ECC69D00A7EA16 /* breakfastMenu.json in Resources */,
 				BA92D01923EB869C00436944 /* Assets.xcassets in Resources */,
+				BA5CE4CF23F4C7CE00F3F842 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +182,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA92D01323EB869400436944 /* AppDelegate.swift in Sources */,
+				BA92D02723EB86C900436944 /* CircleImage.swift in Sources */,
+				BA5CE4CB23F4C24F00F3F842 /* Menu.swift in Sources */,
+				BA92D02923EB86D100436944 /* MapView.swift in Sources */,
 				BA92D01523EB869400436944 /* SceneDelegate.swift in Sources */,
 				BA92D01723EB869400436944 /* ContentView.swift in Sources */,
+				BA85F9AD23ECC66600A7EA16 /* Helper.swift in Sources */,
+				BA85FA1323EDBE1B00A7EA16 /* ItemRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"newChevs/Preview Content\"";
 				DEVELOPMENT_TEAM = 9924DC27A5;
 				ENABLE_PREVIEWS = YES;
@@ -293,10 +334,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.clipchak.newChevs;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clipchak.ChevAndRachel-s";
+				PRODUCT_NAME = "Chev and Rachel's Family Diner";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"newChevs/Preview Content\"";
 				DEVELOPMENT_TEAM = 9924DC27A5;
 				ENABLE_PREVIEWS = YES;
@@ -313,17 +356,18 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.clipchak.newChevs;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clipchak.ChevAndRachel-s";
+				PRODUCT_NAME = "Chev and Rachel's Family Diner";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA92D00A23EB869400436944 /* Build configuration list for PBXProject "newChevs" */ = {
+		BA92D00A23EB869400436944 /* Build configuration list for PBXProject "Chev and Rachel's Family Diner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA92D02123EB869C00436944 /* Debug */,
@@ -332,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA92D02323EB869C00436944 /* Build configuration list for PBXNativeTarget "newChevs" */ = {
+		BA92D02323EB869C00436944 /* Build configuration list for PBXNativeTarget "Chev and Rachel's Family Diner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA92D02423EB869C00436944 /* Debug */,

@@ -1,0 +1,245 @@
+[
+	{
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
+		"name": "EGGS - SERVED WITH HOME FRIES AND TOAST",
+		"items": [
+			{
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+				"name": "2 eggs",
+                "additions": "",
+				"price": 4.50,
+				},
+			{
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+				"name": "2 eggs",
+                "additions": "with bacon or sausage",
+				"price": 6,
+				
+            },
+			{
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+				"name": "2 eggs",
+                "additions": "with corned beef hash",
+			    "price": 7.25,
+			},
+			{
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+				"name": "2 eggs",
+                "additions": "with pancake and bacon or sausage",
+				"price": 8,
+			}
+		]
+	},
+	{
+		"name": "SCRAMBLERS - SERVED WITH HOME FRIES AND TOAST",
+        "id": "3D97FAB4-50AC-40FC-9BF0-3F46BB6A92F5",
+		"items": [
+			{
+                "id": "D44AAEBC-BF4F-42CD-8C37-0FEF772A5B69",
+				"name": "Egg White",
+                "additions": "with vegetables",
+				"price": 8,
+			},
+			{
+                "id": "2BAD20C5-D007-4BBE-B074-8CF0F256A42F",
+				"name": "Hot Sausage and Cheese",
+                "additions": "",
+			    "price": 7.50,
+			}
+			
+		]
+	},
+	{
+		"name": "OMELETS - SERVED WITH HOME FRIES AND TOAST",
+        "id": "1C89DAFD-7653-4EF2-BF20-C51A159BAC43",
+		"items": [
+			{
+                "id": "AB7E38EA-05A7-426A-AFF3-B3A32B3E86BF",
+				"name": "Cheese",
+                "additions": "",
+				"price": 6,
+			},
+			{
+                "id": "758ABBE3-F338-4F7C-BAC7-8D61BC1FB329",
+				"name": "Veggie",
+                "additions": "",
+				"price": 7,
+			},
+			{
+                "id": "A73E2D2D-D53A-46D4-8829-62011EEF7DA4",
+				"name": "Egg White",
+                "additions": "",
+				"price": 8,
+			},
+			{
+                "id": "971CFDDD-2AFA-418F-909F-D459CC6827CF",
+				"name": "Meat Lovers",
+                "additions": "",
+				"price": 9,
+			},
+            {
+                "id": "971CFDDD-2AFA-418F-909F-D459CC6827C1",
+                "name": "Add 1 meat:",
+                "additions": "ham, bacon, or sausage",
+                "price": 1,
+            },
+            {
+                "id": "971CFDDD-2AFA-418F-909F-D459CC6827C2",
+                "name": "Add 2 meats:",
+                "additions": "ham, bacon, or sausage",
+                "price": 2.25,
+            }
+		]
+	},
+	{
+		"name": "BREAKFAST BOWL - HOME FRIES SMOTHERED WITH SCRAMBLED EGGS, CHEESE, AND ONIONS IN A BOWL",
+        "id": "CE3C67F9-79E3-46E3-B134-362A52ABFE3C",
+		"items": [
+			{
+                "id": "A4D89AF9-190E-4409-B924-AABD13DBB6A4",
+				"name": "Regular",
+                "additions": "",
+			    "price": 4.50,
+			},
+			{
+                "id": "FC201614-1418-4152-9469-087B27485D13",
+				"name": "Add a meat",
+                "additions": "",
+			    "price": 6.50,
+			},
+			{
+                "id": "58CE3F3E-74E1-4C5F-A630-986B187788B5",
+				"name": "Super Bowl (all meats)",
+                "additions": "",
+				"price": 9,
+			}
+		]
+	},
+    {
+        "name": "PANCAKES",
+        "id": "CE3C67F9-79E3-46E3-B134-362A52ABFE31",
+        "items": [
+            {
+                "id": "CE3C67F9-79E3-46E3-B134-362A52ABFE32",
+                "name": "1 Pancake",
+                "additions": "",
+                "price": 2.50,
+            },
+            {
+                "id": "CE3C67F9-79E3-46E3-B134-362A52ABFE33",
+                "name": "2 Pancakes",
+                "additions": "",
+                "price": 4,
+            },
+            {
+                "id": "CE3C67F9-79E3-46E3-B134-362A52ABFE34",
+                "name": "2 Chocolate Chip Pancakes",
+                "additions": "",
+                "price": 5,
+            },
+            {
+                "id": "CE3C67F9-79E3-46E3-B134-362A52ABFE35",
+                "name": "2 Bacon Pancakes",
+                "additions": "",
+                "price": 6,
+            },
+            {
+                "id": "CE3C67F9-79E3-46E3-B134-362A52ABFE36",
+                "name": "2 Bacon Chocolate Chip Pancakes",
+                "additions": "",
+                "price": 6.5,
+            }
+        ]
+    },
+    {
+        "name": "BREAKFAST SANDWICH - SERVED ON A CROISSANT WITH FRIED OR SCRAMBLED EGG",
+        "id": "1E3C67F9-79E3-46E3-B134-362A52ABFE31",
+        "items": [
+            {
+                "id": "1E3C67F9-79E3-46E3-B134-362A52ABFE32",
+                "name": "Bacon or Sausage",
+                "additions": "",
+                "price": 4.50,
+            }
+        ]
+    },
+    {
+        "name": "FRENCH TOAST - MADE WITH MANCINI'S BREAD",
+        "id": "2E3C67F9-79E3-46E3-B134-362A52ABFE31",
+        "items": [
+            {
+                "id": "2E3C67F9-79E3-46E3-B134-362A52ABFE32",
+                "name": "French Toast",
+                "additions": "",
+                "price": 4.25,
+            }
+        ]
+    },
+    {
+        "name": "SIDES - ADD A SIDE TO ANY MEAL",
+        "id": "3E3C67F9-79E3-46E3-B134-362A52ABFE31",
+        "items": [
+            {
+                "id": "3E3C67F9-79E3-46E3-B134-362A52ABFE32",
+                "name": "Oatmeal",
+                "additions": "",
+                "price": 1.75,
+            },
+            {
+                "id": "3E3C67F9-79E3-46E3-B134-362A52ABFE33",
+                "name": "Bagel or Toast",
+                "additions": "",
+                "price": 1.75,
+            },
+            {
+                "id": "3E3C67F9-79E3-46E3-B134-362A52ABFE34",
+                "name": "Home Fries",
+                "additions": "",
+                "price": 2,
+            },
+            {
+                "id": "3E3C67F9-79E3-46E3-B134-362A52ABFE35",
+                "name": "Bacon or Sausage",
+                "additions": "",
+                "price": 2.25,
+            },
+            {
+                "id": "3E3C67F9-79E3-46E3-B134-362A52ABFE36",
+                "name": "Corned Beef Hash",
+                "additions": "",
+                "price": 6.5,
+            }
+        ]
+    },
+    {
+        "name": "DRINKS",
+        "id": "3E3C67F9-79E3-46E3-B134-362A52ABFE37",
+        "items": [
+            {
+                "id": "3E3C67F9-79E3-46E3-B134-362A52ABFE38",
+                "name": "Hot Drinks",
+                "additions": "Coffee/Hot Tea/Hot Chocolate",
+                "price": 1.75,
+            },
+            {
+                "id": "3E3C67F9-79E3-46E3-B134-362A52ABFE39",
+                "name": "Coke Products",
+                "additions": "",
+                "price": 1.75,
+            },
+            {
+                "id": "3E3C67F9-79E3-46E3-B134-362A52ABFE40",
+                "name": "Juice",
+                "additions": "Orange/Cranberry/Tomato",
+                "price": 1.75,
+            },
+            {
+                "id": "3E3C67F9-79E3-46E3-B134-362A52ABFE41",
+                "name": "Milk or Chocolate Milk",
+                "additions": "",
+                "price": 1.75,
+            }
+            
+        ]
+    }
+]
